@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.maar.bookstore.BookstoreApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-17T20:38:01" hostname="RIJAN" time="0.426">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.maar.bookstore.BookstoreApplicationTests" time="0.426"/>
+  <system-out><![CDATA[16:38:00.224 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.maar.bookstore.BookstoreApplicationTests]: BookstoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+16:38:00.283 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.maar.bookstore.BookstoreApplication for test class com.maar.bookstore.BookstoreApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.1)
+
+2024-07-17T16:38:00.594-04:00  INFO 27532 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Starting BookstoreApplicationTests using Java 21.0.3 with PID 27532 (started by rijan in C:\Users\rijan\Downloads\bookstore)
+2024-07-17T16:38:00.595-04:00  INFO 27532 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-07-17T16:38:01.495-04:00  INFO 27532 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Started BookstoreApplicationTests in 1.061 seconds (process running for 1.825)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\rijan\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.17\e3c251a39dc90badaf71c83427ba46840f219d8d\byte-buddy-agent-1.14.17.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
