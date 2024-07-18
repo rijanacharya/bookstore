@@ -113,7 +113,7 @@ jobs:
         run: docker build -t rijanacharya100/jenkins_docker_book:0.0.1 .
 
       - name: SSH to EC2 Instance
-        uses: appleboy/ssh-action@v0.2.1
+        uses: aws-actions/configure-aws-credentials@v1
         with:
           host: 18.118.112.127
           username: ec2-user
