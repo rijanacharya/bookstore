@@ -116,6 +116,7 @@ jobs:
         uses: aws-actions/configure-aws-credentials@v1
         with:
           host: 18.118.112.127
+          aws-region: us-east-2b
           username: ec2-user
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
