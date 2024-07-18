@@ -1,0 +1,19 @@
+name: CD Pipeline
+
+on:
+  workflow_run:
+    workflows: ["CI Pipeline"]
+    types:
+      - completed
+
+jobs:
+  build_and_push:
+    runs-on: self-hosted
+
+    steps:
+      - name: Pull Docker Image
+        run: sudo docker pull rijanacharya100/springboot:latest
+      - name: Delete Old docker container
+        run: sudo docker rm -f springboot-container || true
+      - name: Run Docker Container
+        run: sudo docker run -d -p 8080:8080 --name springboot-container rijanacharya100/springboot
