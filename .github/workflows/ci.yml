@@ -2,7 +2,7 @@ name: CI Pipeline
 
 on:
    workflow_run:
-    workflows: ["Build Gradle project"]
+    workflows: ["Java CI with Gradle"]
     types:
       - completed
 
