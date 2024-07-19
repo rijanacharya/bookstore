@@ -8,7 +8,7 @@ plugins {
 }
 mainClassName = 'com.maar.bookstore.BookstoreApplication'
 group = 'com.maar'
-version = '0.0.1-SNAPSHOT'
+version = 'SNAPSHOT'
 
 java {
 	toolchain {
