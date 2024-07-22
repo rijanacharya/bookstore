@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.maar.bookstore.BookstoreApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-19T18:24:07" hostname="RIJAN" time="0.511">
+<testsuite name="com.maar.bookstore.BookstoreApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-22T21:34:26" hostname="RIJAN" time="0.501">
   <properties/>
-  <testcase name="contextLoads()" classname="com.maar.bookstore.BookstoreApplicationTests" time="0.511"/>
-  <system-out><![CDATA[14:24:06.694 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.maar.bookstore.BookstoreApplicationTests]: BookstoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-14:24:06.750 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.maar.bookstore.BookstoreApplication for test class com.maar.bookstore.BookstoreApplicationTests
+  <testcase name="contextLoads()" classname="com.maar.bookstore.BookstoreApplicationTests" time="0.501"/>
+  <system-out><![CDATA[17:34:24.930 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.maar.bookstore.BookstoreApplicationTests]: BookstoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:34:24.985 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.maar.bookstore.BookstoreApplication for test class com.maar.bookstore.BookstoreApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,9 +14,10 @@
 
  :: Spring Boot ::                (v3.3.1)
 
-2024-07-19T14:24:07.039-04:00  INFO 77448 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Starting BookstoreApplicationTests using Java 21.0.3 with PID 77448 (started by rijan in C:\Users\rijan\Downloads\bookstore)
-2024-07-19T14:24:07.040-04:00  INFO 77448 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2024-07-19T14:24:07.922-04:00  INFO 77448 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Started BookstoreApplicationTests in 1.048 seconds (process running for 1.798)
+2024-07-22T17:34:25.300-04:00  INFO 95040 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Starting BookstoreApplicationTests using Java 21.0.3 with PID 95040 (started by rijan in C:\Users\rijan\Downloads\bookstore)
+2024-07-22T17:34:25.301-04:00  INFO 95040 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-07-22T17:34:26.120-04:00  WARN 95040 --- [bookstore] [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-22T17:34:26.180-04:00  INFO 95040 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Started BookstoreApplicationTests in 1.049 seconds (process running for 1.888)
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\rijan\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.17\e3c251a39dc90badaf71c83427ba46840f219d8d\byte-buddy-agent-1.14.17.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
