@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.maar.bookstore.BookstoreApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-22T21:34:26" hostname="RIJAN" time="0.501">
+<testsuite name="com.maar.bookstore.BookstoreApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-24T16:17:20" hostname="RIJAN" time="0.55">
   <properties/>
-  <testcase name="contextLoads()" classname="com.maar.bookstore.BookstoreApplicationTests" time="0.501"/>
-  <system-out><![CDATA[17:34:24.930 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.maar.bookstore.BookstoreApplicationTests]: BookstoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-17:34:24.985 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.maar.bookstore.BookstoreApplication for test class com.maar.bookstore.BookstoreApplicationTests
+  <testcase name="contextLoads()" classname="com.maar.bookstore.BookstoreApplicationTests" time="0.55"/>
+  <system-out><![CDATA[12:17:19.346 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.maar.bookstore.BookstoreApplicationTests]: BookstoreApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+12:17:19.409 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.maar.bookstore.BookstoreApplication for test class com.maar.bookstore.BookstoreApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -14,10 +14,33 @@
 
  :: Spring Boot ::                (v3.3.1)
 
-2024-07-22T17:34:25.300-04:00  INFO 95040 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Starting BookstoreApplicationTests using Java 21.0.3 with PID 95040 (started by rijan in C:\Users\rijan\Downloads\bookstore)
-2024-07-22T17:34:25.301-04:00  INFO 95040 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : No active profile set, falling back to 1 default profile: "default"
-2024-07-22T17:34:26.120-04:00  WARN 95040 --- [bookstore] [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-22T17:34:26.180-04:00  INFO 95040 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Started BookstoreApplicationTests in 1.049 seconds (process running for 1.888)
+2024-07-24T12:17:19.741-04:00  INFO 3036 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Starting BookstoreApplicationTests using Java 21.0.3 with PID 3036 (started by rijan in C:\Users\rijan\Downloads\bookstore)
+2024-07-24T12:17:19.742-04:00  INFO 3036 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2024-07-24T12:17:20.606-04:00  WARN 3036 --- [bookstore] [    Test worker] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-24T12:17:20.797-04:00  INFO 3036 --- [bookstore] [    Test worker] org.mongodb.driver.client                : MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "5.0.1"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Oracle Corporation/21.0.3+7-LTS-152"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, transportSettings=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@4962b41e, com.mongodb.Jep395RecordCodecProvider@4fecf308, com.mongodb.KotlinCodecProvider@6282b9f5]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='15 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, proxySettings=ProxySettings{host=null, port=null, username=null, password=null}}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+2024-07-24T12:17:20.794-04:00  INFO 3036 --- [bookstore] [localhost:27017] org.mongodb.driver.cluster               : Exception in monitor thread while connecting to server localhost:27017
+
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.lambda$open$0(SocketStream.java:86) ~[mongodb-driver-core-5.0.1.jar:na]
+	at java.base/java.util.Optional.orElseThrow(Optional.java:403) ~[na:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:86) ~[mongodb-driver-core-5.0.1.jar:na]
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:201) ~[mongodb-driver-core-5.0.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:193) ~[mongodb-driver-core-5.0.1.jar:na]
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:153) ~[mongodb-driver-core-5.0.1.jar:na]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+Caused by: java.net.ConnectException: Connection refused: getsockopt
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method) ~[na:na]
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:682) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:542) ~[na:na]
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:592) ~[na:na]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+	at java.base/java.net.Socket.connect(Socket.java:751) ~[na:na]
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:76) ~[mongodb-driver-core-5.0.1.jar:na]
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:105) ~[mongodb-driver-core-5.0.1.jar:na]
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:80) ~[mongodb-driver-core-5.0.1.jar:na]
+	... 4 common frames omitted
+
+2024-07-24T12:17:20.831-04:00  INFO 3036 --- [bookstore] [    Test worker] c.m.bookstore.BookstoreApplicationTests  : Started BookstoreApplicationTests in 1.274 seconds (process running for 2.094)
 ]]></system-out>
   <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\rijan\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.17\e3c251a39dc90badaf71c83427ba46840f219d8d\byte-buddy-agent-1.14.17.jar)
 WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
