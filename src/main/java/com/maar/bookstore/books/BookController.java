@@ -1,25 +1,31 @@
 package com.maar.bookstore.books;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
 @RequestMapping(path = "api/v1/student")
 public class BookController {
-    private final BookService bookService;
+//    private final BookService bookService;
+
 
     @Autowired
-    public BookController(BookService bookService) {
-        this.bookService = bookService;
+    private  BookRepository br;
+   // public BookController(BookService bookService) {
+//        this.bookService = bookService;
+//    }
+
+    @PostMapping("/add")
+    public Book addBook(@RequestBody Book book)
+    {
+        return br.save(book);
     }
 
-    @GetMapping
+    @GetMapping("/")
     public List<Book> getBooks(){
-        return bookService.getStudents();
+        return br.findAll();
     }
-
+//    return br.findAll();
 }
