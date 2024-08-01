@@ -16,8 +16,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping(path = "api/v1/book")
-@CrossOrigin(origins = "http://localhost:3000")
+@RequestMapping(path = "api/v1/student")
 public class BookController {
 
     @Autowired
@@ -78,4 +77,5 @@ public class BookController {
     public List<Book> getBooks() {
         return bookRepository.findAll();
     }
+//    return br.findAll();
 }
